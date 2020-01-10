@@ -1,0 +1,247 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+.menu{
+    /*height: 20px;*/
+    flex-grow: 1;
+    background-color: rgb(201, 197, 197);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu>a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+.under-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 60;
+    
+    background-color: rgb(184, 184, 180);
+}
+.left{
+    background-image: linear-gradient(to bottom,black,gray);
+    width: 75px;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.left>img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+}
+.one{
+    margin-top: 70px;
+}
+.two{
+    margin-top: 35px;
+}
+.right{
+    background-color: rgb(184, 184, 180);
+    flex-grow: 15;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.close{
+    flex-grow: 1;
+    background-color: rgb(184, 184, 180);
+    text-align: right;
+    
+}
+.back-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  .back-button{
+    background-image: url("https://img.icons8.com/material-outlined/48/000000/left.png");
+    height:40px ;
+    width:40px ;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .back-button:focus{
+    outline-style: none;
+    
+  }
+#click{
+    height:60px;
+    width: 40px;
+    border: none;
+    position:relative;
+    background-color: white;
+    background-image: url('https://img.icons8.com/windows/30/000000/long-arrow-right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    opacity: 50%;
+  }
+  #click:focus{
+    border: none;
+    outline: none;
+  }
+.close>img{
+    position: relative;
+    right:20px;
+    top:20px;
+    height: 23px;
+    width: 23px;
+  
+}
+.login{
+    text-align: center;
+    line-height: 1.8;
+    background-color: rgb(184, 184, 180);
+    flex-grow: 0.4;
+}
+.login>p{
+    color: snow;
+}
+.login>h1{
+    margin-top: 50px;
+font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+}
+.userpass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+    
+    
+}
+.back-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    
+}
+.back-container>img{
+    height: 40px;
+    width: 40px;
+}
+.nothing{
+    
+    flex-grow: 1;
+}
+.username-inputs{
+    display: flex;
+    
+    background-color: snow;
+    margin: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    width: 350px;
+    height:120px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    }
+#userpassword{
+    height: 60px;
+    width:300 ;
+    border:none;
+    padding-left: 10px;
+}
+#userpassword:focus{
+    outline: none;
+    border: none;
+}
+#userinput{
+    padding-left: 10px;
+    width: 350px;
+    height: 60px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+#userinput:focus{
+    outline: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.inputbox>img{
+    height:40px;
+    width: 30px;
+    margin-top:10px;
+    position:relative;
+    
+}
+.footnotes{
+    background-color: rgb(184, 184, 180);
+    flex-grow: 3;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    
+}
+.footnotes{
+    
+    background-color: rgb(184, 184, 180);
+    flex-grow: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    
+    
+}
+#Invalid{
+    visibility: hidden;
+    align-self: center;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footnotes>a{
+    align-self: center;
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+    background-color:rgb(184, 184, 180) ;
+}
+.footnotes-bottom{
+    align-self: center;
+    background-color: rgb(184, 184, 180);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:40px ;
+    width: 40vw;
+    min-width: 400px;
+}
+.footnotes-bottom>a{
+    text-decoration: none;
+    color: black;
+}
